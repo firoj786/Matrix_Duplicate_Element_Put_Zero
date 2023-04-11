@@ -44,13 +44,14 @@ public class MatrixDuplicateElementPutZero {
 		//Print the matrix in the desired format.
 		System.out.print("{");
 		System.out.println();
+		
 		for(int i=0;i<matrix.length;i++) {
-			System.out.print("   {");
-			for(int j=0;j<matrix[i].length; j++) {
-				System.out.print(matrix[i][j]);
-          if(j<matrix[i].length-1) {
-	      System.out.print(",");
-     }
+		 System.out.print("   {");
+		  for(int j=0;j<matrix[i].length; j++) {
+		    System.out.print(matrix[i][j]);
+		     if(j<matrix[i].length-1) {
+	                 System.out.print(",");
+                      }
 		}
 		System.out.println("},");
 	//	if(i<matrix.length-1) {
@@ -63,8 +64,13 @@ public class MatrixDuplicateElementPutZero {
 Output:
 {
    {1,0,2,0,3,4,5},
+   
    {1,0,0,0,0,0,0},
+   
    {1,2,3,4,5,6,7},
+   
    {1,2,0,0,0,0,0},
+   
 };
+
 }
