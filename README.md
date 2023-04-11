@@ -62,6 +62,7 @@ public class MatrixDuplicateElementPutZero {
 	}
 
 Output:
+
 {
    {1,0,2,0,3,4,5},
    
@@ -69,8 +70,6 @@ Output:
    
    {1,2,3,4,5,6,7},
    
-   {1,2,0,0,0,0,0},
-   
-};
+   {1,2,0,0,0,0,0},};
 
 }
